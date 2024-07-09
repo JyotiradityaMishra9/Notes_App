@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+    <div class ="row">
+        <div class = "col">
+            <div class = "home-holder text-center">
+                <h1 class="fs-3">Hello,World!</h1>
+                <p>Welcome to the World's most Amazing smart app</p>
+                <a href="{% url "notes.list" %}" class = "btn btn-success btn-sm">go to smart notes</a>
+
+    </div></div>
+
+{% endblock %}
